@@ -1,5 +1,5 @@
 import PlusSvg from "./PlusSvg";
-import { sectionProps } from "../../components/section";
+import { sectionProps } from "../../components/Section";
 const SectionSvg = ({ crossesOffset }: sectionProps) => {
   return (
     <>
