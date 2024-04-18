@@ -10,7 +10,7 @@ import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
 
 const Hero = () => {
-  const parallaxRef = useRef();
+  const parallaxRef = useRef<HTMLDivElement>(null);
   return (
     <Section
       className="pt-[12rem] -mt-[5.25rem]"
