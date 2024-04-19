@@ -7,7 +7,6 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: "dist",
-    watch: {},
     assetsInlineLimit: 4048,
     assetsDir: "assets",
   },
