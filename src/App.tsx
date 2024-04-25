@@ -1,9 +1,10 @@
 import "./App.css";
-import { ButtonGradient } from "./assets/svg/ButtonGradient.jsx";
-import Benefits from "./components/Benefits.js";
-import Collaboration from "./components/Collaboration.js";
-import Header from "./components/Header.js";
-import Hero from "./components/Hero.js";
+import { ButtonGradient } from "./assets/svg/ButtonGradient";
+import Benefits from "./components/Benefits";
+import Collaboration from "./components/Collaboration";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Services from "./components/Services";
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
         <Hero />
         <Benefits />
         <Collaboration />
+        <Services />
       </div>
       <ButtonGradient />
     </>
